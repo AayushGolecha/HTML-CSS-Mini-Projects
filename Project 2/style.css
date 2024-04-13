@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: grey;
+}
+
+.box {
+    background-color: white;
+    width: 60vw;
+    margin: 0 auto;
+    /* height: 100vh; */
+    border-radius: 10px;
+}
+
+.main {
+    margin-top: 70px;
+    margin-left: 80px;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+h1 span {
+    font-size: 2.25rem;
+    color: rgb(0, 0, 160);
+}
+
+form {
+    padding-top: 30px;
+    margin-left: 80px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form label {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+form input {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.cont {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form select {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.area {
+    grid-column: 1 / span 2;
+}
+
+.area textarea {
+    width: 92%;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+#cv{
+    padding-top: 6px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 450px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+button{
+    font-size: 2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn1{
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: rgb(0, 0, 118);
+}
+.btn2{
+    color: white;
+background-color: red;
+padding: 5px;
+font-weight: 600;
+margin-left: 20px;
+border-radius: 10px;
+}
+.btn2:hover{
+    background-color: rgb(186, 2, 2)
+}
