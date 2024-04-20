@@ -12,7 +12,6 @@ body {
     background-color: white;
     width: 60vw;
     margin: 0 auto;
-    /* height: 100vh; */
     border-radius: 10px;
 }
 
@@ -41,6 +40,7 @@ form {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
 
 form label {
@@ -57,7 +57,7 @@ form input {
 }
 
 .cont {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
@@ -118,4 +118,30 @@ border-radius: 10px;
 }
 .btn2:hover{
     background-color: rgb(186, 2, 2)
+}
+@media only screen and (max-width:450px){
+    .box{
+        width: 80vw;
+    }
+    .main {
+        margin-left: 20px;
+    }
+    h1 {
+        font-size: 2.1rem;
+    }
+    
+    h1 span {
+        font-size: 1.75rem;
+    }
+    form {
+        margin-left: 20px;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .cont {
+        display: block;
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }
